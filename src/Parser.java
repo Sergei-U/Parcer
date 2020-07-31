@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Parcer {
+public class Parser {
     public static void main(String[] args) throws IOException {
         List<Article> articleList = new ArrayList<>();
         Document doc = Jsoup.connect ("http://4pda.ru").get();
